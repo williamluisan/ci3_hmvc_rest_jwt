@@ -1,7 +1,7 @@
 <?php
 
 defined('BASEPATH') or exit('Direct access path is not allowed');
-class Students extends CI_Controller 
+class Students extends MY_Controller 
 {
     public function __construct()
     {

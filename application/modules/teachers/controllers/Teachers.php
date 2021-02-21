@@ -2,9 +2,7 @@
 
 defined('BASEPATH') or exit('Direct access path is not allowed');
 
-use chriskacerguis\RestServer\RestController;
-
-class Teachers extends RestController 
+class Teachers extends Authentication_Controller 
 {
     public function __construct()
     {
