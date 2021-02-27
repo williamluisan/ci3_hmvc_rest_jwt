@@ -12,7 +12,6 @@ application/logs/*
 composer.lock
 
 vendor/*
-application/config/database.php
 
 # gitkeep
 !.gitkeep

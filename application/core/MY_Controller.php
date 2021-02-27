@@ -12,6 +12,12 @@ class MY_Controller extends CI_Controller
     }
 }
 
+/**
+ * Custom core class that extends RestController
+ * 
+ * This class is intended to extend on every custom rest controller
+ * for JWT authentication at the first time when controller is loaded
+ */
 class Authentication_Controller extends RestController 
 {
     public function __construct()
@@ -36,7 +42,7 @@ class Authentication_Controller extends RestController
         } catch (Exception $e) {
             $invalid = [
                 'status' => FALSE,
-                'error_code' => 102,
+                'error_code' => 102, // custom error code
                 'message' => $e->getMessage()    
             ];
             

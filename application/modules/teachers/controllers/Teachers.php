@@ -25,7 +25,7 @@ class Teachers extends Authentication_Controller
         } else {
             $this->response([
                 'status' => FALSE,
-                'error_code' => 100,
+                'error_code' => 100, // custom error code
                 'error_message' => 'Tidak mendapatkan data teacher'
             ], 404);
         }
