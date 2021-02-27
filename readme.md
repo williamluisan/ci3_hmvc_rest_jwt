@@ -6,10 +6,10 @@ An example Codeignter 3 app packed with
 
 ## Brief expalanation to try ##
 - Login to get the access token. endpoin: `POST /auth/token`
-    id: __100__
-    key: __appkey100__
+    <br/>id: __100__
+    <br/>key: __appkey100__
 - Try to access it. endpoin: `POST /teachers`
-- Request new access token with endpoin. `POST /auth/token_refresh`
+- Request new access token. endpoin `POST /auth/token_refresh`
 
 #### References ####
 - Codeigniter 3: https://codeigniter.com 
