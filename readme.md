@@ -1,5 +1,5 @@
 ## Description ##
-An example Codeignter 3 app packed with
+An example of Codeignter 3 app packed with
 1. HMVC (Hierarchical Model View Controller)
 2. Codeigniter REST
 3. JWT for REST authentication
