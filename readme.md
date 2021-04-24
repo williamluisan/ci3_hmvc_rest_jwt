@@ -8,8 +8,8 @@ An example of Codeignter 3 app packed with
 - Login to get the access token. endpoin: `POST /auth/token`
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;id: __100__
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;key: __appkey100__
-- Try to access it. endpoin: `POST /teachers`
-- Request new access token. endpoin `POST /auth/token_refresh`
+- Try to access it. endpoint: `POST /teachers`
+- Request new access token. endpoint `POST /auth/token_refresh`
 
 #### References ####
 - Codeigniter 3: https://codeigniter.com 
